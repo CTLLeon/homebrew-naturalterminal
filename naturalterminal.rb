@@ -1,6 +1,6 @@
 class Naturalterminal < Formula
     desc "A natural language terminal tool"
-    homepage "N/A" # Your main repo URL
+    homepage "https://github.com/CTLLeon/homebrew-naturalterminal" # Your main repo URL
     url "https://github.com/CTLLeon/homebrew-naturalterminal/releases/download/v1.0.0/NaturalTerminal-macos-v1.0.0.tar.gz"
     sha256 "3098ac2ceeae8d8d8a8aed30b53121054a1e75b3b4804353689cb1602522b2db" # Paste the checksum from Step 3
     version "1.0.0"
