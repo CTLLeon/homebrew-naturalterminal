@@ -52,3 +52,8 @@ For now, this tool supports macOS only. Linux may be supported in the future.
     ```bash
     naturalterminal natural
     ```
+5. To update (in the future)
+   ```bash
+   brew update
+   brew upgrade CTLLeon/homebrew-naturalterminal/naturalterminal
+   ```
