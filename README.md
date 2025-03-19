@@ -13,6 +13,7 @@ For now, this tool supports macOS only. Linux may be supported in the future.
 
 # Prerequisites
 
+- **Homebrew**: This tool is distributed via Homebrew. Ensure it’s installed by visiting https://brew.sh/.
 - **Local LLM**: To use a local language model, ensure Ollama is installed and running on your device. Visit https://ollama.com/ to download it.
 - **OpenRouter**: To use remote models via OpenRouter, you’ll need an API key. Create one at https://openrouter.ai/.
 
@@ -20,13 +21,18 @@ For now, this tool supports macOS only. Linux may be supported in the future.
 
 1. Install via Homebrew:
    ```bash
-   brew tap CTLLeon/naturalterminal
-   brew install naturalterminal
+   brew tap CTLLeon/homebrew-naturalterminal
+   brew install CTLLeon/homebrew-naturalterminal/naturalterminal
    ```
 2. (Optional) Set up the alias 'n':
-    
+   
+    For zsh (default for mac, recommended)
     ```bash
-    sh /usr/local/Cellar/naturalterminal/1.0.0/setup-alias.sh
+    zsh /usr/local/Cellar/naturalterminal/1.0.0/setup-alias.sh
+    ```
+   For bash
+   ```bash
+    bash /usr/local/Cellar/naturalterminal/1.0.0/setup-alias.sh
     ```
     
 3. Run this to set things up! Follow the instructions:
