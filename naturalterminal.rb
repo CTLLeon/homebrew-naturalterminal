@@ -3,7 +3,7 @@ class Naturalterminal < Formula
   homepage "https://github.com/CTLLeon/homebrew-naturalterminal"
   url "https://github.com/CTLLeon/homebrew-naturalterminal/releases/download/v1.0.0/NaturalTerminal-macos-v1.0.0.tar.gz"
   sha256 "e53890a83fed5c3fe05f572f7d9e0f4677d507538b3a95d145d747da9e8e962c"
-  version "1.0.0"
+  version "1.0.1"
 
   def install
     bin.install "NaturalTerminal"          # Install binary to /opt/homebrew/bin/
